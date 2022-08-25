@@ -6,6 +6,7 @@ ruby '3.0.2'
 gem 'rack-cors'
 gem 'rack-attack'
 gem 'devise'
+gem 'simple_token_authentication'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6', '>= 6.1.6.1'

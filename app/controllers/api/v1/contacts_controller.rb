@@ -45,7 +45,7 @@ class Api::V1::ContactsController < Api::V1::ApiController
     end
 
     def contact_params
-      params_require(:contact).permit(:name, :email, :phone, :description)
+      params.require(:contact).permit(:name, :email, :phone, :description)
     end
 
     def require_authorization!
